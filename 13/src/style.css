@@ -1,0 +1,105 @@
+body {
+ 
+    background: #1f2937;
+}
+
+
+main {
+    border: 2px solid green;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 15%;
+    width: 738px ;
+    height: 420px;
+    background-color: #1F2937;
+}
+
+.dadosCartao {
+    width: 328px;
+    height: 252px;
+    padding: auto;
+  
+}
+
+
+p {
+color: white;
+margin-bottom: 2px;
+}
+
+input {
+    width: 98%;
+    height: 40px;
+    background: #111827;
+    border-radius: 0.4rem;
+    border: 0.1rem solid #374151;
+  
+    color: #f3f4f6;
+}
+
+.footerDados {
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerContent {
+
+    flex-direction: column;
+
+}
+
+#validade {
+    width: 95%;
+    height: 40px;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.cartao {
+    margin-top: 28px;
+    background: url(./assets/cc-front.png) no-repeat;
+    width: 32.8rem;
+    height: 15rem;
+    margin-left: 25px;
+    perspective: 60rem;
+    border-radius: 5px;
+    transform: rotateY(0)
+}
+
+.content {
+    display: flex;
+    
+}
+
+button {
+    width: 90%;
+    background-color: #9333EA;
+    height: 56px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px ;
+    margin-left: 35px;
+}
+
+.info-security > p {
+    margin-bottom: 15px;
+}
+
+.info-security {
+    display: flex;
+    margin-top: 12rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+
+    
+}
+
